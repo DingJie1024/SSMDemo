@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+		PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+		"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 配置数据源 spring做-->
+	<typeAliases>
+		<package name="edu.dj.pojo"/>
+	</typeAliases>
+
+	<!--绑定mybatis配置文件-->
+	<mappers>
+		<mapper class="edu.dj.dao.BookMapper"/>
+	</mappers>
+</configuration>
